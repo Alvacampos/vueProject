@@ -5,7 +5,6 @@
       <div class="container-full">               
         <div class="row">
           <app-information :values="universeInformation">
-            <hr/>
           </app-information>  
         </div>        
       </div>
