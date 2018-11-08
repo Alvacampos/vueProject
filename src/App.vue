@@ -7,6 +7,7 @@
       <div class="main">
         <ProfileNav/>
         <EquityNav />
+        <Overview />
       </div>
     </div>
   </div>
@@ -19,6 +20,7 @@ import SideDashboardVue from "./components/SideDashboard/SideDashboard.vue";
 import Proximamente from "./components/Proximamente/Proximamente.vue";
 import Content from "./components/Proximamente/Content.vue";
 import New from "./components/SideDashboard/SideItem/New.vue";
+import Overview from "./containers/Overview.vue";
 
 export default {
   data() {
@@ -32,7 +34,8 @@ export default {
     EquityNav: Equity,
     Proximamente: Proximamente,
     Content: Content,
-    New: New
+    New: New,
+    Overview: Overview
   }
 };
 </script>
