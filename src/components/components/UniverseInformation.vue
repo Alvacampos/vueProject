@@ -2,7 +2,7 @@
   <div class="col">
     <div class="col" v-for="(value,index) in values" :key="index">
       <p>{{ value }}</p>      
-        <slot></slot>          
+        <slot name="index"></slot>          
     </div>
   </div>   
 </template>

@@ -1,6 +1,6 @@
 <template>
 <div class="sidenav">
-  <li v-for="item in items">{{item}}</li>
+  <li v-for="(item, i) in items" :key="i">{{item}}</li>
 </div>
 </template>
 

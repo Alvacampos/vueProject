@@ -1,9 +1,9 @@
 <template>
       <ul class="sidenav">
-      <li class="section" v-for="section in sections">
+      <li class="section" v-for="(section, i) in sections" :key="i">
         {{section.name}} 
         <ul>        
-        <li v-for="subsection in section.subname">{{subsection}} </li>
+        <li v-for="(subsection, i) in section.subname" :key="i">{{subsection}} </li>
       </ul>
       </li>
     </ul>
