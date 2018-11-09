@@ -4,8 +4,7 @@
     <div class="row" style="margin: 5px">
       <div class="container-full">               
         <div class="row">
-          <app-information :values="universeInformation">
-          </app-information>  
+          <app-information :values="universeInformation"></app-information>  
         </div>        
       </div>
     </div>    

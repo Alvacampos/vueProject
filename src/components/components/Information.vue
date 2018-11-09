@@ -1,9 +1,9 @@
-<template>
+<template>  
   <div class="row">
     <div class="col" v-for="(value,index) in values" :key="index">
       <p>{{ value }}</p>
     </div>      
-  </div>   
+  </div> 
 </template>
 
 <script>
